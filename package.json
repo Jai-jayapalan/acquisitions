@@ -6,7 +6,7 @@
   "imports": {
     "#config/*": "./src/config/*",
     "#controllers/*": "./src/controllers/*",
-    "#middleware/*": "./src/middleware/*",
+    "#middlewares/*": "./src/middlewares/*",
     "#models/*": "./src/models/*",
     "#routes/*": "./src/routes/*",
     "#services/*": "./src/services/*",
@@ -36,6 +36,8 @@
   },
   "homepage": "https://github.com/Jai-jayapalan/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.4.0",
+    "@arcjet/node": "^1.4.0",
     "@neondatabase/serverless": "^1.1.0",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
@@ -51,7 +53,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "drizzle-kit": "^0.18.1",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
